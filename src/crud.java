@@ -24,6 +24,7 @@ public class crud {
             System.out.print("Insira a senha: ");
             String senha = scanner.nextLine();
 
+            // Verifica se as credenciais correspondem
             if (usuario.equals(USER) && senha.equals(PASSWORD)) {
                 System.out.println("\nLogin sucedido!");
                 exibirMenu();
